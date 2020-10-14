@@ -1,0 +1,78 @@
+.about__me {
+	display: flex;
+	padding: 100px 20px;
+    margin: 0px 150px;
+    background-color: #260a30;
+    box-shadow: 2px 2px 3px 0px #260a30;
+}
+
+/* ABOUT */
+.about {
+	/* border: 2px solid;
+	border-color: teal; */
+	flex: 1;
+}
+
+.about h1 {
+	font-family: 'Yatra One', cursive;
+	color: rgb(206, 206, 206);
+	padding: 10px 0px 40px;
+}
+
+.about p {
+	line-height: 27px;
+	font-size: 19px;
+	padding-right: 10px;
+}
+
+/* TECHNOLOGIES */
+.technologies {
+	font-size: 19px;
+	line-height: 27px;
+	/* border: 2px solid;
+	border-color: black; */
+	flex: 1;
+	margin-top: 97px;
+	border-left: 1px solid #ff73ef;
+	padding-left: 15px;
+}
+
+.tech__logos {
+	margin-bottom: 15px;
+}
+
+.tech__logos > img {
+	margin: 15px 15px 0px 0px;
+}
+
+/* MEDIA RULES */
+@media only screen and (max-width: 1024px) {
+	.about__me {
+		margin: 0px;
+	}
+}
+
+@media only screen and (max-width: 770px) {
+	/* About */
+	.about__me {
+		flex-direction: column;
+		padding: 60px 25px;
+	}
+
+	.about h1 {
+		font-size: 25px;
+	}
+
+	.about p {
+		font-size: 17px;
+	}
+
+	/* Technologies */
+
+	.technologies {
+		margin-top: 30px;
+		font-size: 17px;
+		border: none;
+		padding: 0px;
+	}
+}

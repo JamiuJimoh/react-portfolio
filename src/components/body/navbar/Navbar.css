@@ -1,0 +1,134 @@
+li,
+a,
+button {
+	font-family: 'Fira Code', monospace;
+	font-weight: 400;
+	font-size: 15px;
+	color: #a7a7a7;
+	text-decoration: none;
+}
+
+header {
+	position: sticky;
+	top: 0px;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	padding: 16px 5%;
+	background-color: transparent;
+	z-index: 10;
+	/* box-shadow: 0px 0px 7px 0px #000000; */
+}
+
+.logo {
+	cursor: pointer;
+	margin-right: auto;
+}
+
+/* .nav__links {
+    list-style: square;
+    list-style-type: square;
+} */
+
+.nav__links li {
+	display: inline-block;
+	padding: 0px 20px;
+}
+
+.nav__links li a {
+	transition: all 0.3s ease 0s;
+}
+
+.nav__links li a:hover {
+	color: #ff73ef;
+}
+
+button {
+	margin-left: 20px;
+	padding: 8px 18px;
+	background-color: transparent;
+	border: 1px solid #ff73ef;
+	color: #ff73ef;
+	border-radius: 4px;
+	cursor: pointer;
+}
+
+button:hover {
+	background-color: rgba(253, 92, 234, 0.3);
+	transition: all 0.2s ease 0s;
+}
+
+/* Menu button */
+.menu-btn {
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 45px;
+	transition: all .5s ease-in-out;
+	cursor: pointer;
+	display: none;
+}
+
+.menu-btn__burger {
+	width: 40px;
+	height: 2px;
+	background-color: #ff73ef;
+	border-radius: 5px;
+	/* box-shadow: 0 2px 5px rgba(255, 99, 71, 0.3); */
+	transition: all .5s ease-in-out;
+}
+
+.menu-btn__burger::before,
+.menu-btn__burger::after {
+	content: '';
+	position: absolute;
+	background-color: #ff73ef;
+	border-radius: 5px;
+	box-shadow: 0 2px 5px rgba(255, 99, 71, 0.3);
+	transition: all .5s ease-in-out;
+}
+
+.menu-btn__burger::before {
+	width: 45px;
+	height: 2px;
+	transform: translateY(-10px);
+}
+
+.menu-btn__burger::after {
+	width: 30px;
+	height: 2px;
+	transform: translateY(10px);
+}
+
+/* MENU BURGER ANIMANTION */
+.menu-btn.open .menu-btn__burger {
+	transform: translateX(-50px);
+	background-color: transparent;
+}
+
+.menu-btn.open .menu-btn__burger::before {
+	transform: rotate(45deg) translate(35px, -35px);
+}
+
+.menu-btn.open .menu-btn__burger::after {
+	transform: rotate(-45deg) translate(35px, 35px);
+}
+
+@media only screen and (max-width: 600px) {
+	header {
+		padding: 20px 5%;
+	}
+
+	nav {
+		display: none;
+	}
+
+	button {
+		display: none;
+	}
+
+	.menu-btn {
+		display: inline-block;
+	}
+}

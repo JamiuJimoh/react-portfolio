@@ -1,0 +1,119 @@
+.projects {
+	margin: 0px 150px;
+	padding: 150px 20px;
+}
+
+.projects h1 {
+	font-family: 'Yatra One', cursive;
+	color: rgb(206, 206, 206);
+	padding: 10px 0px 30px;
+}
+
+.project__card {
+	display: flex;
+	margin-bottom: 90px;
+	letter-spacing: 0.8px;
+}
+
+.project__picture {
+	flex: 1;
+	padding-right: 15px;
+}
+
+.project__picture img {
+	max-width: 100%;
+	height: auto;
+}
+
+.about__project {
+	flex: 1;
+	border-left: 1px solid #ff73ef;
+	border-bottom: 1px solid #ff73ef;
+	box-shadow: -4px 7px 9px -1px #401450;
+	padding-left: 15px;
+	text-align: right;
+}
+
+.about__project .title {
+	font-family: 'Yatra One', cursive;
+	color: rgb(206, 206, 206);
+	padding: 0px 0px 8px 0px;
+	padding-right: 13px;
+}
+
+.about__project .content {
+	display: flex;
+	padding: 13px;
+	background-color: #260a30;
+	box-shadow: 2px 2px 3px 0px #260a30;
+}
+
+.about__project .tools {
+	padding: 20px 0px;
+	padding-right: 13px;
+}
+
+.about__project .tools > span {
+	margin: 0px 10px;
+}
+
+.about__project .icons > a {
+	margin: 0px 10px;
+	font-size: 20px;
+	padding-right: 13px;
+}
+
+.about__project .icons > a {
+	color: rgb(206, 206, 206);
+}
+
+.about__project .icons > a:hover {
+	color: #ff73ef;
+}
+
+.grown {
+	transform: translateZ(0);
+	transition: transform 0.25s ease-out;
+}
+
+.grown:hover,
+.grown:focus {
+	transform: scale(1.05);
+}
+
+/* MEDIA RULES */
+@media only screen and (max-width: 1024px) {
+	.projects {
+		margin: 0px;
+	}
+}
+
+@media only screen and (max-width: 763px) {
+	.projects {
+		padding: 50px 25px 50px 25px;
+		position: relative;
+	}
+
+	.project__card {
+		flex-direction: column;
+		margin-bottom: 150px;
+	}
+
+	.projects h1 {
+		font-size: 25px;
+	}
+
+	.about__project .content {
+		background-color: transparent;
+	}
+
+	.about__project {
+		position: absolute;
+		padding-bottom: 10px;
+		background-color: rgba(35, 7, 43, 0.7);
+		right: 40px;
+		box-shadow: none;
+		width: calc(100% - 80px);
+		color: rgb(206, 206, 206);
+	}
+}

@@ -1,0 +1,46 @@
+.body__container {
+	/* border: 2px solid;
+	border-color: teal; */
+	height: 100%;
+	width: 100%;
+	display: flex;
+}
+
+.left__sidebar {
+	/* border: 2px solid;
+	border-color: green; */
+	flex: 1;
+}
+
+.main__body {
+	height: 100%;
+	/* border: 2px solid;
+	border-color: red; */
+	flex: 10;
+	margin: 0px 150px;
+	padding: 100px 0;
+}
+
+.right__sidebar {
+	/* border: 2px solid;
+	border-color: yellow; */
+	flex: 1;
+}
+
+/* MEDIA RULES */
+
+@media only screen and (max-width: 1024px) {
+	.main__body {
+		margin: 0px;
+	}
+}
+
+@media only screen and (max-width: 760px) {
+	.left__sidebar {
+		display: none;
+	}
+
+	.right__sidebar {
+		display: none;
+	}
+}
