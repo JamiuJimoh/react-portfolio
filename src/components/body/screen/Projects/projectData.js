@@ -16,6 +16,22 @@ const projects = [
 		tools: [ 'React.js', 'Css3', 'HTML5' ],
 		preview: 'https://www.google.com',
 		github: 'https://github/jamiujimoh.com'
+	},
+	{
+		title: 'Todo',
+		about: 'A simple todo list built with reactr rgegergeger ewwefwfefwf gwgwgwrg',
+		img: color,
+		tools: [ 'React.js', 'Css3', 'HTML5' ],
+		preview: 'https://www.google.com',
+		github: 'https://github/jamiujimoh.com'
+	},
+	{
+		title: 'Todo',
+		about: 'A simple todo list built with reactr rgegergeger ewwefwfefwf gwgwgwrg',
+		img: color,
+		tools: [ 'React.js', 'Css3', 'HTML5' ],
+		preview: 'https://www.google.com',
+		github: 'https://github/jamiujimoh.com'
 	}
 ];
 

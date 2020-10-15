@@ -1,5 +1,6 @@
 import React from 'react';
 import Typed from 'react-typed';
+import './Intro.css';
 
 const Intro = () => {
 	const typed = ([ str1, str2, str3 ]) => {
@@ -8,8 +9,14 @@ const Intro = () => {
 
 	return (
 		<div className="intro">
-			<p>Helloooo <span role='img' aria-label='img'>😎</span> , I am</p>
-			<h1>JAMIU JIMOH.</h1>
+			<p>
+				Hellooo, I am
+			</p>
+			<h1 className="glitchy">
+				<span aria-hidden="true">JAMIU JIMOH.</span>
+				JAMIU JIMOH.
+				<span aria-hidden="true">JAMIU JIMOH.</span>
+			</h1>
 			<p className="introd">
 				{typed([ 'Frontend developer', 'MERN stack developer', 'Aspiring fullstack developer.' ])}
 			</p>

@@ -1,21 +1,25 @@
-import React from 'react';
-import './Projects/FontAwesomeIcons'
-import About from './About/About';
+import React, { useEffect } from 'react';
+import './Projects/FontAwesomeIcons';
+import Aos from 'aos';
+import 'aos/dist/aos.css';
 import './Body.css';
+import About from './About/About';
 import Intro from './Intro/Intro';
 import Projects from './Projects/Projects';
-import './Intro/Intro.css';
+import RoundOff from './Roundoff/RoundOff';
 
 const Body = () => {
+	useEffect(() => {
+		Aos.init({ duration: 2000 });
+	}, []);
 	return (
 		<div className="body__container">
-			<div className="left__sidebar">left</div>
 			<div className="main__body">
 				<Intro />
-				<About />
-				<Projects />
+				<About data="fade-up" />
+				<Projects data="fade-up" />
+				<RoundOff />
 			</div>
-			<div className="right__sidebar">right</div>
 		</div>
 	);
 };

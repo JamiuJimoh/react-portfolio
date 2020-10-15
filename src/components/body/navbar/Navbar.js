@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
 import './Navbar.css';
 const Navbar = () => {
 	const [ menuBtn, setMenuBtn ] = useState(false);
@@ -17,19 +16,17 @@ const Navbar = () => {
 			<nav>
 				<ol className="nav__links">
 					<li>
-						<Link to="#">About</Link>
+						<a href="#about">About</a>
 					</li>
 					<li>
-						<Link to="#">Projects</Link>
+						<a href="#projects">Projects</a>
 					</li>
 					<li>
-						<Link to="#">Contact</Link>
+						<a href="#roundoff">Contact</a>
 					</li>
 				</ol>
 			</nav>
-			<Link>
-				<button>Resume</button>
-			</Link>
+			<button>Resume</button>
 		</header>
 	);
 };

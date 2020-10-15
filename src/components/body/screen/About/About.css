@@ -8,8 +8,6 @@
 
 /* ABOUT */
 .about {
-	/* border: 2px solid;
-	border-color: teal; */
 	flex: 1;
 }
 
@@ -29,8 +27,6 @@
 .technologies {
 	font-size: 19px;
 	line-height: 27px;
-	/* border: 2px solid;
-	border-color: black; */
 	flex: 1;
 	margin-top: 97px;
 	border-left: 1px solid #ff73ef;

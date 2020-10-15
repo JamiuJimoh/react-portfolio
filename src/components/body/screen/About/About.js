@@ -1,9 +1,9 @@
 import React from 'react';
 import './About.css';
 
-const About = () => {
+const About = (props) => {
 	return (
-		<div className="about__me">
+		<div id="about" data-aos={props.data} className="about__me">
 			<div className="about">
 				<h1>LET ME INTRODUCE MYSELF</h1>
 				<p>
@@ -25,8 +25,8 @@ const About = () => {
 					<img src="https://img.icons8.com/color/48/000000/css3.png" alt="css3 logo" />
 					<img src="https://img.icons8.com/color/48/000000/javascript-logo-1.png" alt="javascript logo" />
 					<img src="https://img.icons8.com/color/48/000000/mongodb.png" alt="mongo db logo" />
-					<img src="https://www.vectorlogo.zone/logos/expressjs/expressjs-ar21.svg" alt="express js logo" />
 					<img src="https://img.icons8.com/color/48/000000/react-native.png" alt="react js logo" />
+					<img src="https://www.vectorlogo.zone/logos/expressjs/expressjs-ar21.svg" alt="express js logo" />
 					<img src="https://img.icons8.com/color/48/000000/nodejs.png" alt="node js logo" />
 				</div>
 			</div>

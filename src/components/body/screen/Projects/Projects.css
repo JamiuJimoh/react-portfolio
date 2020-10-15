@@ -20,12 +20,16 @@
 	padding-right: 15px;
 }
 
+.project__card:nth-of-type(2n) {
+	flex-direction: row-reverse;
+}
+
 .project__picture img {
 	max-width: 100%;
 	height: auto;
 }
 
-.about__project {
+.project__card .about__project {
 	flex: 1;
 	border-left: 1px solid #ff73ef;
 	border-bottom: 1px solid #ff73ef;
@@ -71,13 +75,13 @@
 	color: #ff73ef;
 }
 
-.grown {
+.grow {
 	transform: translateZ(0);
 	transition: transform 0.25s ease-out;
 }
 
-.grown:hover,
-.grown:focus {
+.grow:hover,
+.grow:focus {
 	transform: scale(1.05);
 }
 
@@ -90,7 +94,7 @@
 
 @media only screen and (max-width: 763px) {
 	.projects {
-		padding: 50px 25px 50px 25px;
+		padding: 50px 25px 0px 25px;
 		position: relative;
 	}
 
@@ -115,5 +119,6 @@
 		box-shadow: none;
 		width: calc(100% - 80px);
 		color: rgb(206, 206, 206);
+		padding-top: 40px;
 	}
 }
