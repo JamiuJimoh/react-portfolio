@@ -36,6 +36,10 @@
 		font-size: 25px;
 	}
 
+	.roundoff__btn {
+		display: inline-block;
+	}
+
 	.roundoff p {
 		font-size: 17px;
 	}
