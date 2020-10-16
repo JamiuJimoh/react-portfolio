@@ -11,13 +11,13 @@
 	font-size: 18px;
 }
 
-.grow {
+.grown {
 	transform: translateZ(0);
 	transition: transform 0.25s ease-out;
 }
 
-.grow:hover,
-.grow:focus {
+.grown:hover,
+.grown:focus {
 	/* font-size: 27px; */
 	transform: scale(1.85);
 }

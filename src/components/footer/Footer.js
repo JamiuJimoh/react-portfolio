@@ -6,16 +6,16 @@ const Footer = () => {
 	return (
 		<div className="footer">
 			<div className="socials">
-				<a className="social__link grow" href="/">
+				<a className="social__link grown" href="/">
 					<FontAwesomeIcon icon={[ 'fab', 'instagram' ]} />
 				</a>
-				<a className="social__link grow" href="/">
+				<a className="social__link grown" href="/">
 					<FontAwesomeIcon icon={[ 'fab', 'twitter' ]} />
 				</a>
-				<a className="social__link grow" href="/">
+				<a className="social__link grown" href="/">
 					<FontAwesomeIcon icon={[ 'fab', 'linkedin' ]} />
 				</a>
-				<a className="social__link grow" href="/">
+				<a className="social__link grown" href="/">
 					<FontAwesomeIcon icon={[ 'fab', 'github' ]} />
 				</a>
 			</div>
