@@ -6,12 +6,24 @@ import particleOptions from './particles';
 import './particles.css';
 
 class App extends Component {
+	state = {
+		barState: false
+	};
+
+	handleState = () => {
+		this.setState({ barState: !this.state.barState });
+	};
+
+	bodyClickState=()=>{
+		this.setState({barState:false})
+	}
+
 	render() {
 		return (
 			<div>
-				<Navbar />
+				<Navbar handleBarState={this.handleState} barState={this.state.barState} />
 				<Particles className="particles" params={particleOptions} />
-				<Body />
+				<Body bodyClickState={this.bodyClickState} barState={this.state.barState} />
 			</div>
 		);
 	}

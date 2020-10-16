@@ -1,0 +1,75 @@
+.sidebar__open {
+	background-color: #260a30;
+	position: fixed;
+	z-index: 10;
+	height: 100vh;
+	clip-path: polygon(50% 0%, 100% 0, 100% 100%, 45% 100%, 0 47%);
+}
+
+.sidebar__content {
+	margin-left: 10%;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	height: 100vh;
+}
+
+section.socials {
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	flex: 1;
+}
+
+.social__link{
+    display: inline-block;
+}
+
+nav.sidebar {
+	position: relative;
+	display: inline-block;
+	flex-direction: column;
+	flex: 2;
+	bottom: 50px;
+	font-family: 'Fira Code', monospace;
+	font-weight: 400;
+	font-size: 15px;
+	color: #a7a7a7;
+}
+
+.sidebar ol > li {
+	margin: 30px;
+	padding-left: 40px;
+}
+
+section.socials a {
+	color: #ff73ef;
+	margin: 13px 25px;
+	font-size: 20px;
+}
+
+a.btn {
+	padding: 8px 18px;
+	background-color: transparent;
+	border: 1px solid #ff73ef;
+	color: #ff73ef;
+	border-radius: 4px;
+	cursor: pointer;
+}
+
+a.btn:hover {
+	background-color: rgba(253, 92, 234, 0.3);
+	transition: all 0.2s ease 0s;
+}
+
+.sidebar__close {
+	background-color: transparent;
+	display: none;
+	transition: 4s;
+}
+
+@media only screen and (min-width: 760px) {
+    .sidebar__open{
+        display: none;
+    }
+}

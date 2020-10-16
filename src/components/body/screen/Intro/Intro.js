@@ -9,9 +9,7 @@ const Intro = () => {
 
 	return (
 		<div className="intro">
-			<p>
-				Hellooo, I am
-			</p>
+			<p>Hellooo, I'm</p>
 			<h1 className="glitchy">
 				<span aria-hidden="true">JAMIU JIMOH.</span>
 				JAMIU JIMOH.

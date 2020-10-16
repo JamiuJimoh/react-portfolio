@@ -1,16 +1,15 @@
-import React, { useState } from 'react';
+import React from 'react';
 import './Navbar.css';
-const Navbar = () => {
-	const [ menuBtn, setMenuBtn ] = useState(false);
 
+const Navbar = (props) => {
 	const onHandleClick = () => {
-		setMenuBtn(!menuBtn);
+		props.handleBarState();
 	};
 
 	return (
 		<header>
 			<img src="" alt="logo" className="logo" />
-			<div className={menuBtn ? 'menu-btn open' : 'menu-btn'} onClick={onHandleClick}>
+			<div className={props.barState ? 'menu-btn open' : 'menu-btn'} onClick={onHandleClick}>
 				<div className="menu-btn__burger" />
 			</div>
 			<nav>

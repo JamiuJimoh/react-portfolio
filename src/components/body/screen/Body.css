@@ -1,12 +1,19 @@
 .body__container {
 	height: 100%;
 	width: 100%;
+	display: flex;
 }
 
 .main__body {
 	height: 100%;
 	margin: 0px 350px;
 	padding: 100px 0;
+	/* order: 2; */
+}
+
+.main__body.glass__effect {
+	box-shadow: inset 0 0 2000px rgba(35, 9, 44, .5);
+	filter: blur(10px);
 }
 
 /* MEDIA RULES */

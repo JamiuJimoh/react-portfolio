@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import './Projects/FontAwesomeIcons';
+import './FontAwesomeIcons';
 import Aos from 'aos';
 import 'aos/dist/aos.css';
 import './Body.css';
@@ -7,14 +7,24 @@ import About from './About/About';
 import Intro from './Intro/Intro';
 import Projects from './Projects/Projects';
 import RoundOff from './Roundoff/RoundOff';
+import Sidebar from '../sidebar/Sidebar';
 
-const Body = () => {
+const Body = (props) => {
 	useEffect(() => {
-		Aos.init({ duration: 2000 });
+		Aos.init({
+			duration: 2000,
+			once: true
+		});
 	}, []);
+
+	const onHandleClick = () => {
+		props.bodyClickState();
+	};
+
 	return (
 		<div className="body__container">
-			<div className="main__body">
+			<Sidebar barState={props.barState} />
+			<div onClick={onHandleClick} className={props.barState ? 'main__body glass__effect' : 'main__body'}>
 				<Intro />
 				<About data="fade-up" />
 				<Projects data="fade-up" />

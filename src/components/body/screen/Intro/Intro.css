@@ -36,7 +36,6 @@ h1.glitchy {
 	animation: glitch 650ms infinite;
 	clip-path: polygon(0 0, 100% 0, 100% 45%, 0 45%);
 	transform: translate(-0.025em, -0.0125em);
-	/* color: green; */
 	opacity: 0.8;
 }
 
@@ -44,7 +43,6 @@ h1.glitchy {
 	animation: glitch 375ms infinite;
 	clip-path: polygon(0 80%, 100% 20%, 100% 100%, 0 100%);
 	transform: translate(0.0125em, 0.025em);
-	/* color: red; */
 	opacity: 0.8;
 }
 
