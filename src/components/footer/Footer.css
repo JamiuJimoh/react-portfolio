@@ -1,0 +1,23 @@
+.footer {
+	font-family: 'Fira Code', monospace;
+	text-align: center;
+	padding: 50px 10px;
+	margin: 0;
+}
+
+.socials a {
+	color: #ff73ef;
+	margin: 13px 15px;
+	font-size: 18px;
+}
+
+.grow {
+	transform: translateZ(0);
+	transition: transform 0.25s ease-out;
+}
+
+.grow:hover,
+.grow:focus {
+	/* font-size: 27px; */
+	transform: scale(1.85);
+}

@@ -1,9 +1,10 @@
 import React, { Component } from 'react';
 import Particles from 'react-particles-js';
-import Navbar from './body/navbar/Navbar';
-import Body from './body/screen/Body';
+import Navbar from './navbar/Navbar';
+import Body from './screen/Body';
 import particleOptions from './particles';
 import './particles.css';
+import Footer from './footer/Footer';
 
 class App extends Component {
 	state = {
@@ -24,6 +25,7 @@ class App extends Component {
 				<Navbar handleBarState={this.handleState} barState={this.state.barState} />
 				<Particles className="particles" params={particleOptions} />
 				<Body bodyClickState={this.bodyClickState} barState={this.state.barState} />
+				<Footer />
 			</div>
 		);
 	}
