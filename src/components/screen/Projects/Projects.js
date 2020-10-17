@@ -10,7 +10,7 @@ const Projects = (props) => {
 				<div id="projects" className="project__card" key={project.title}>
 					<figure className="project__picture grow">
 						<a href={project.preview}>
-							<img src={project.img} alt="app-snippet" />
+							<img src={project.img} alt={project.about} />
 						</a>
 					</figure>
 					<main data-aos={props.data} className="about__project">

@@ -97,20 +97,16 @@
 		padding: 50px 25px 0px 25px;
 		position: relative;
 	}
-
 	.project__card {
 		flex-direction: column;
 		margin-bottom: 150px;
 	}
-
 	.projects h1 {
 		font-size: 25px;
 	}
-
 	.about__project .content {
 		background-color: transparent;
 	}
-
 	.about__project {
 		position: absolute;
 		padding-bottom: 10px;

@@ -3,19 +3,16 @@
 	width: 100%;
 	display: flex;
 }
-
 .main__body {
 	height: 100%;
 	margin: 0px 350px;
 	padding: 100px 0px;
 	/* order: 2; */
 }
-
 .main__body.glass__effect {
 	box-shadow: inset 0 0 2000px rgba(35, 9, 44, .5);
 	filter: blur(10px);
 }
-
 /* MEDIA RULES */
 
 @media only screen and (max-width: 1530px) {
@@ -28,7 +25,6 @@
 		margin: 50px;
 	}
 }
-
 @media only screen and (max-width: 760px) {
 	.main__body {
 		margin: 0px;
