@@ -1,37 +1,31 @@
-import color from './color.PNG';
+import jart from './project-images/Jart.PNG';
+import jmc from './project-images/JMC.PNG';
+import todo from './project-images/react-todo.PNG';
 const projects = [
 	{
-		title: 'Todo List',
+		title: 'Jart',
 		about:
-			'A simple todo list built with react A simple todo list built with reactA simple todo list built with react A simple todo list built with react',
-		img: color,
-		tools: [ 'React.js', 'Css3', 'HTML5' ],
-		preview: 'https://www.google.com',
-		github: 'https://github/jamiujimoh.com'
+			'Jart is a blog website for artists. Features include Authentication and Authurization (also with google oauth), full CRUD function with REST API.',
+		img: jart,
+		tools: [ 'MongoDB', 'Express.js', 'Node.js' ],
+		preview: 'https://glacial-beyond-66136.herokuapp.com/',
+		github: 'https://github.com/JamiuJimoh/Jart'
+	},
+	{
+		title: 'JMC',
+		about: "Serach for your movies with JMC. All movies are fetched using IMDB API.",
+		img: jmc,
+		tools: [ 'Express.js', 'Semantic UI' ],
+		preview: 'http://young-savannah-31158.herokuapp.com/',
+		github: 'https://github.com/JamiuJimoh/movie-app'
 	},
 	{
 		title: 'Todo',
-		about: 'A simple todo list built with reactr rgegergeger ewwefwfefwf gwgwgwrg',
-		img: color,
+		about: 'A simple todo list built with react. Create, delete and check your activities.',
+		img: todo,
 		tools: [ 'React.js', 'Css3', 'HTML5' ],
-		preview: 'https://www.google.com',
-		github: 'https://github/jamiujimoh.com'
-	},
-	{
-		title: 'Todo',
-		about: 'A simple todo list built with reactr rgegergeger ewwefwfefwf gwgwgwrg',
-		img: color,
-		tools: [ 'React.js', 'Css3', 'HTML5' ],
-		preview: 'https://www.google.com',
-		github: 'https://github/jamiujimoh.com'
-	},
-	{
-		title: 'Todo',
-		about: 'A simple todo list built with reactr rgegergeger ewwefwfefwf gwgwgwrg',
-		img: color,
-		tools: [ 'React.js', 'Css3', 'HTML5' ],
-		preview: 'https://www.google.com',
-		github: 'https://github/jamiujimoh.com'
+		preview: 'https://jamiutodoapp.netlify.app/',
+		github: 'https://github.com/JamiuJimoh/todo-react-app'
 	}
 ];
 

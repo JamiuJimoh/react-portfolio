@@ -9,8 +9,8 @@ const Projects = (props) => {
 			return (
 				<div id="projects" className="project__card" key={project.title}>
 					<figure className="project__picture grow">
-						<a href="/">
-							<img src={project.img} alt="" />
+						<a href={project.preview}>
+							<img src={project.img} alt="app-snippet" />
 						</a>
 					</figure>
 					<main data-aos={props.data} className="about__project">
@@ -18,7 +18,7 @@ const Projects = (props) => {
 						<section className="content">{project.about}</section>
 						<section className="tools">
 							{project.tools.map((tool) => {
-								return <span>{tool}</span>;
+								return <span key={tool}>{tool}</span>;
 							})}
 						</section>
 						<div className="icons">

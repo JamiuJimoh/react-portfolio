@@ -1,5 +1,6 @@
 import React from 'react';
 import './Navbar.css';
+import logo from './logo.png'
 
 const Navbar = (props) => {
 	const onHandleClick = () => {
@@ -8,7 +9,7 @@ const Navbar = (props) => {
 
 	return (
 		<header>
-			<img src="" alt="logo" className="logo" />
+			<img src={logo} alt="logo" className="logo" />
 			<div className={props.barState ? 'menu-btn open' : 'menu-btn'} onClick={onHandleClick}>
 				<div className="menu-btn__burger" />
 			</div>
