@@ -9,7 +9,7 @@ const Intro = () => {
 
 	return (
 		<div className="intro">
-			<p>Hellooo, I'm</p>
+			<p>Hellooo, I am</p>
 			<h1>
 				JAMIU JIMOH.
 			</h1>
