@@ -38,7 +38,8 @@
 }
 
 .tech__logos > img {
-	margin: 15px 15px 0px 0px;
+	margin: 15px 24px 0px 0px;
+	padding: 0px 4px 0px 0px;
 }
 
 /* MEDIA RULES */
@@ -71,4 +72,9 @@
 		border: none;
 		padding: 0px;
 	}
+
+	.tech__logos > img {
+		/* margin: 15px 11px 0px 0px; */
+	}
+	
 }

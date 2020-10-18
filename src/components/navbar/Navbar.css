@@ -38,7 +38,7 @@ header {
 	color: #ff73ef;
 }
 
-button {
+a.nav__btn {
 	margin-left: 20px;
 	padding: 8px 18px;
 	background-color: transparent;
@@ -48,7 +48,7 @@ button {
 	cursor: pointer;
 }
 
-button:hover {
+a.nav__btn:hover {
 	background-color: rgba(253, 92, 234, 0.3);
 	transition: all 0.2s ease 0s;
 }
@@ -118,7 +118,7 @@ button:hover {
 		display: none;
 	}
 
-	button {
+	a.nav__btn {
 		display: none;
 	}
 

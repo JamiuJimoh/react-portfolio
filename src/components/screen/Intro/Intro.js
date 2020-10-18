@@ -10,15 +10,13 @@ const Intro = () => {
 	return (
 		<div className="intro">
 			<p>Hellooo, I'm</p>
-			<h1 className="glitchy">
-				<span aria-hidden="true">JAMIU JIMOH.</span>
+			<h1>
 				JAMIU JIMOH.
-				<span aria-hidden="true">JAMIU JIMOH.</span>
 			</h1>
 			<p className="introd">
 				{typed([ 'Frontend developer', 'MERN stack developer', 'Aspiring fullstack developer.' ])}
 			</p>
-			<button className="intro__btn">Get In Touch</button>
+			<a href="mailto:hyperjay55@gmail.com" className="intro__btn">Get In Touch</a>
 		</div>
 	);
 };

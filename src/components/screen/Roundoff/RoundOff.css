@@ -10,15 +10,28 @@
 	color: rgb(206, 206, 206);
 	margin-bottom: 15px;
 }
+
 .roundoff p {
 	font-size: 19px;
 	line-height: 22px;
 }
-.roundoff__btn {
+
+a.roundoff__btn {
+	display: inline-block;
 	margin-top: 30px;
-	margin-left: 0px;
-	padding: 14px 28px;
+	padding: 14px 29px;
+	background-color: transparent;
+	border: 1px solid #ff73ef;
+	color: #ff73ef;
+	border-radius: 4px;
+	cursor: pointer;
 }
+
+a.roundoff__btn:hover {
+	background-color: rgba(253, 92, 234, 0.3);
+	transition: all 0.2s ease 0s;
+}
+
 /* MEDIA RULES */
 @media only screen and (max-width: 1024px) {
 	.roundoff {
@@ -31,11 +44,8 @@
 		font-size: 25px;
 	}
 
-	.roundoff__btn {
-		display: inline-block;
-	}
-
 	.roundoff p {
 		font-size: 17px;
 	}
+
 }

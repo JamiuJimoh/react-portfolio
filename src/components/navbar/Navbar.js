@@ -1,6 +1,7 @@
 import React from 'react';
 import './Navbar.css';
-import logo from './logo.png'
+import logo from './logo.png';
+import resume from './resume.pdf';
 
 const Navbar = (props) => {
 	const onHandleClick = () => {
@@ -26,7 +27,7 @@ const Navbar = (props) => {
 					</li>
 				</ol>
 			</nav>
-			<button>Resume</button>
+			<a className='nav__btn' href={resume}>Resume</a>
 		</header>
 	);
 };
