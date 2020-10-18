@@ -13,7 +13,7 @@ const About = (props) => {
 				<br />
 				<p>
 					I am a computer science student in my finals. I am a frontend/backend developer, a footballer and an
-					artist. My main skill is teamwork and the ability to adapt to different situations. My primary stack is the MERN stack but i could work with other tools if the
+					artist. My ability to adapt to different situations and my tendency to work better with a team is a skill I'm proud of. My primary stack is the MERN stack but i could work with other tools if the
 					need be.
 				</p>
 			</div>
