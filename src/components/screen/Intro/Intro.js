@@ -4,12 +4,12 @@ import './Intro.css';
 
 const Intro = () => {
 	const typed = ([ str1, str2, str3 ]) => {
-		return <Typed strings={[ str1, str2, str3 ]} typeSpeed={70} backSpeed={70} loop />;
+		return <Typed strings={[ str1, str2, str3 ]} typeSpeed={15} backSpeed={1} loop />;
 	};
 
 	return (
 		<div className="intro">
-			<p>Hellooo, I am</p>
+			<p>Hello, I am</p>
 			<h1>
 				JAMIU JIMOH.
 			</h1>

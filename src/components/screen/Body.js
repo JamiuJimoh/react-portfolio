@@ -23,7 +23,7 @@ const Body = (props) => {
 
 	return (
 		<div className="body__container">
-			<Sidebar barState={props.barState} />
+			<Sidebar handleBarState={onHandleClick} barState={props.barState} />
 			<div onClick={onHandleClick} className={props.barState ? 'main__body glass__effect' : 'main__body'}>
 				<Intro />
 				<About data="fade-up" />

@@ -13,7 +13,7 @@ const projects = [
 	},
 	{
 		title: 'JMC',
-		about: "Serach for your movies with JMC. All movies are fetched using IMDB API.",
+		about: "Search for your movies with JMC. All movies are fetched using IMDB API.",
 		img: jmc,
 		tools: [ 'Express.js', 'Semantic UI' ],
 		preview: 'http://young-savannah-31158.herokuapp.com/',

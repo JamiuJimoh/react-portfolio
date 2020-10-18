@@ -6,7 +6,7 @@
 .intro p {
 	font-family: 'Fira Code', monospace;
 	font-size: 20px;
-	color: #ff73ef;
+	color: #ff89f1;
 }
 
 .intro h1 {
@@ -27,8 +27,8 @@ a.intro__btn {
 	margin-left: 0px;
 	padding: 14px 18px;
 	background-color: transparent;
-	border: 1px solid #ff73ef;
-	color: #ff73ef;
+	border: 1px solid #ff89f1;
+	color: #ff89f1;
 	border-radius: 4px;
 	cursor: pointer;
 }

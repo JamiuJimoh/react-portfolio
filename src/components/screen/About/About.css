@@ -29,7 +29,7 @@
 	line-height: 27px;
 	flex: 1;
 	margin-top: 97px;
-	border-left: 1px solid #ff73ef;
+	border-left: 1px solid #ff89f1;
 	padding-left: 15px;
 }
 
@@ -72,9 +72,4 @@
 		border: none;
 		padding: 0px;
 	}
-
-	.tech__logos > img {
-		/* margin: 15px 11px 0px 0px; */
-	}
-	
 }

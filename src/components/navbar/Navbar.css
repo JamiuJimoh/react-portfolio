@@ -35,15 +35,15 @@ header {
 }
 
 .nav__links li a:hover {
-	color: #ff73ef;
+	color: #ff89f1;
 }
 
 a.nav__btn {
 	margin-left: 20px;
 	padding: 8px 18px;
 	background-color: transparent;
-	border: 1px solid #ff73ef;
-	color: #ff73ef;
+	border: 1px solid #ff89f1;
+	color: #ff89f1;
 	border-radius: 4px;
 	cursor: pointer;
 }
@@ -68,7 +68,7 @@ a.nav__btn:hover {
 .menu-btn__burger {
 	width: 40px;
 	height: 2px;
-	background-color: #ff73ef;
+	background-color: #ff89f1;
 	border-radius: 5px;
 	transition: all .5s ease-in-out;
 }
@@ -77,7 +77,7 @@ a.nav__btn:hover {
 .menu-btn__burger::after {
 	content: '';
 	position: absolute;
-	background-color: #ff73ef;
+	background-color: #ff89f1;
 	border-radius: 5px;
 	box-shadow: 0 2px 5px rgba(255, 99, 71, 0.3);
 	transition: all .5s ease-in-out;
@@ -103,6 +103,7 @@ a.nav__btn:hover {
 
 .menu-btn.open .menu-btn__burger::before {
 	transform: rotate(45deg) translate(35px, -35px);
+	width: 30px;
 }
 
 .menu-btn.open .menu-btn__burger::after {

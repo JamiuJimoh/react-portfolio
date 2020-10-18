@@ -5,7 +5,7 @@ import resume from './resume.pdf';
 
 const Sidebar = (props) => {
 	return (
-		<div className={props.barState ? 'sidebar__open' : 'sidebar__close'}>
+		<div onClick={props.handleBarState} className={props.barState ? 'sidebar__open' : 'sidebar__close'}>
 			<div className="sidebar__content">
 				<section className="socials">
 					<a className="social__link" href="https://www.instagram.com/3ergio__/">

@@ -31,8 +31,8 @@
 
 .project__card .about__project {
 	flex: 1;
-	border-left: 1px solid #ff73ef;
-	border-bottom: 1px solid #ff73ef;
+	border-left: 1px solid #ff89f1;
+	border-bottom: 1px solid #ff89f1;
 	box-shadow: -4px 7px 9px -1px #401450;
 	padding-left: 15px;
 	text-align: right;
@@ -72,7 +72,7 @@
 }
 
 .about__project .icons > a:hover {
-	color: #ff73ef;
+	color: #ff89f1;
 }
 
 .grow {

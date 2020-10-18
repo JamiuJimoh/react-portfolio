@@ -37,15 +37,15 @@ nav.sidebar {
 	padding-left: 40px;
 }
 section.socials a {
-	color: #ff73ef;
+	color: #ff89f1;
 	margin: 13px 25px;
 	font-size: 20px;
 }
 a.btn {
 	padding: 8px 18px;
 	background-color: transparent;
-	border: 1px solid #ff73ef;
-	color: #ff73ef;
+	border: 1px solid #ff89f1;
+	color: #ff89f1;
 	border-radius: 4px;
 	cursor: pointer;
 }
