@@ -37,7 +37,7 @@ const Projects = (props) => {
 
 	return (
 		<div className="projects">
-			<h1>RECENTLY DONE PROJECTS</h1>
+			<h1>MOST RECENT PROJECTS</h1>
 			{renderList()}
 		</div>
 	);
