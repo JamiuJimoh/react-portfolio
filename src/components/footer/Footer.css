@@ -30,6 +30,6 @@
 	.grown:hover,
 	.grown:focus {
 		/* font-size: 27px; */
-		transform: scale(1.25);
+		transform: scale(0.65);
 	}
 }
