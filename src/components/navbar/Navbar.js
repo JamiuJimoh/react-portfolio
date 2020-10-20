@@ -27,7 +27,9 @@ const Navbar = (props) => {
 					</li>
 				</ol>
 			</nav>
-			<a className='nav__btn' href={resume}>Resume</a>
+			<a className="nav__btn" href={resume}>
+				Resume
+			</a>
 		</header>
 	);
 };

@@ -19,10 +19,10 @@ header {
 	z-index: 10;
 }
 
-.logo {
-	cursor: pointer;
+img.logo {
 	margin-right: auto;
 	height: 35px;
+	cursor: pointer;
 }
 
 .nav__links li {
@@ -127,7 +127,7 @@ a.nav__btn:hover {
 		display: inline-block;
 	}
 
-	.logo {
+	img.logo {
 		height: 26px;
 	}
 }

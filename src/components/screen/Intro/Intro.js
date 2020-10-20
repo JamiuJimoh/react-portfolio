@@ -8,15 +8,15 @@ const Intro = () => {
 	};
 
 	return (
-		<div className="intro">
+		<div id="intro" className="intro">
 			<p>Hello, I am</p>
-			<h1>
-				JAMIU JIMOH.
-			</h1>
+			<h1>JAMIU JIMOH.</h1>
 			<p className="introd">
 				{typed([ 'Frontend developer', 'MERN stack developer', 'Aspiring fullstack developer.' ])}
 			</p>
-			<a href="mailto:hyperjay55@gmail.com" className="intro__btn">Get In Touch</a>
+			<a href="mailto:hyperjay55@gmail.com" className="intro__btn">
+				Get In Touch
+			</a>
 		</div>
 	);
 };
