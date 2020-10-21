@@ -24,6 +24,9 @@ const Sidebar = (props) => {
 				<nav className="sidebar">
 					<ol className="nav__links">
 						<li>
+							<a href="#intro">Home</a>
+						</li>
+						<li>
 							<a href="#about">About</a>
 						</li>
 						<li>
